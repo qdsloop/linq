@@ -37,5 +37,4 @@ public class UnionByTest extends EnumerableTest {
                 .unionBy(Linq.asEnumerable(emps), emp -> emp.deptno, comparer)
                 .count());
     }
-
 }
